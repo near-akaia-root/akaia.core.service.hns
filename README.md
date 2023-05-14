@@ -8,6 +8,7 @@
 ## Documentation
 
 - [Install guide](./docs/install.md)
+- [Guide from Namebase](https://learn.namebase.io/starting-from-zero/how-to-access-handshake-sites)
 - Documentation Site: [https://hsd-dev.org](https://hsd-dev.org)
 - API Docs: [https://hsd-dev.org/api-docs](https://hsd-dev.org/api-docs)
 - JSDoc: [https://hsd-dev.org/hsd](https://hsd-dev.org/hsd)
