@@ -1,0 +1,19 @@
+[Unit]
+Description=hsd
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+Environment="HSD_NETWORK=main"
+Environment="HSD_LOG_LEVEL=debug"
+Environment="HSD_NO_WALLET=true"
+Environment="HSD_RS_PORT=53"
+Environment="HSD_RS_HOST=0.0.0.0"
+Environment="HSD_PREFIX=/home/akaia/core/service/hns/.hsd"
+ExecStart=/usr/local/bin/node /home/akaia/core/service/hns/bin/hsd
+
+[Install]
+WantedBy=multi-user.target
